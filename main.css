@@ -1,0 +1,430 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0e0527;
+}
+header .container {
+  background: #0e0527;
+}
+
+.container {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  border-bottom: 3px solid royalblue;
+  overflow: hidden;
+}
+
+.container .logo {
+  color: aliceblue;
+  margin-left: -200px;
+}
+
+.container .logo .name {
+  color: royalblue;
+}
+
+.container .nav ul li {
+  display: inline;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: sans-serif;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.nav li a:hover {
+  background: royalblue;
+  border-radius: 7px;
+  transition: all 0.5s;
+}
+
+.intro {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 50%;
+  background: rgb(2, 3, 8);
+  background: url("./images/pexels-felix-mittermeier-956981.jpg");
+  background-size: cover;
+  padding: 10px;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+.intro .Welcome-dev {
+  /* margin-top: 15px;*/
+
+  padding-top: 40px;
+  padding-left: 80px;
+}
+
+.intro .Welcome-Image {
+  border-radius: 50%;
+  border: 3px solid royalblue;
+}
+
+.intro .dev-name {
+  border-left: 5px solid royalblue;
+  border-radius: 5px;
+
+  height: 200px;
+}
+
+.intro .dev-name h1 {
+  font-size: 3rem;
+  color: white;
+  padding-left: 10px;
+  font-family: sans-serif;
+}
+
+.intro .dev-name .para {
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+.intro .social {
+  padding-left: 110px;
+  padding-top: 30px;
+}
+.intro .social a {
+  color: aliceblue;
+  width: 45px;
+  height: 40px;
+  padding-top: 5px;
+  margin-right: 10px;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5em;
+  transition: all 0.3s;
+}
+
+.intro .social a:hover {
+  background-color: royalblue;
+  border: 1px solid white;
+  transition: all 0.3s;
+}
+
+.intro .btn {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.intro .btn .button {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 40px;
+  width: 150px;
+
+  margin: 10px;
+  background: royalblue;
+  color: white;
+  border: 2px solid royalblue;
+  border-radius: 5px;
+}
+
+.intro .btn .button a {
+  color: white;
+}
+.intro .btn button:hover {
+  color: royalblue;
+  background: white;
+  border: 2px solid royalblue;
+  transition: all 0.5s;
+}
+
+.skillset {
+  background: url(./images/pexels-luis-gomes-546819.jpg);
+  background-size: cover;
+  padding-bottom: 15%;
+  overflow: hidden;
+
+  /*margin-top: -50px;*/
+}
+
+.skillset div {
+  border-radius: 5px;
+}
+
+.skillset .heading {
+  text-align: center;
+  display: block;
+  height: 50px;
+  margin: 0 20%;
+  /*margin-top: 50px;*/
+
+  margin-bottom: 50px;
+  padding: 10px 0 10px 0;
+  border-bottom: 3px solid royalblue;
+  font-family: sans-serif;
+  color: white;
+}
+
+.skillset .skill1 {
+  float: left;
+  height: 250px;
+  margin-left: 8%;
+  width: 40%;
+  min-width: 510px;
+  border: 1px solid royalblue;
+  background: rgb(27, 27, 44);
+}
+
+.skillset .skill1 h3 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #bebebe;
+  margin-top: 30px;
+}
+.skillset .skill1 .skill1-bar {
+  height: 10px;
+  border: 1px solid royalblue;
+  border-radius: 5px;
+  margin: 0 40px;
+  background: azure;
+}
+
+.skillset .skill1 .skill1-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: royalblue;
+  transition: all 0.5s;
+}
+.skillset .skill1 #skill1-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: royalblue;
+  transition: all 0.5s;
+}
+.skillset .skill2 {
+  height: 250px;
+  width: 40%;
+  min-width: 510px;
+  float: right;
+  margin-right: 8%;
+  border: 1px solid royalblue;
+  background: rgb(27, 27, 44);
+}
+
+.skillset .skill2 h3 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #bebebe;
+  margin-top: 30px;
+}
+.skillset .skill2 .skill2-bar {
+  height: 10px;
+  border: 1px solid royalblue;
+  border-radius: 5px;
+  margin: 0 40px;
+  background: azure;
+  transition: all 2s;
+}
+
+.skillset .skill2 .skill2-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: royalblue;
+}
+.skillset .skill2 #skill2-bar-fill {
+  height: 100%;
+  width: 0;
+  background: royalblue;
+}
+
+.skillset .skill2 .skill2-bar-fill-java {
+  width: 0;
+  height: 100%;
+  background: royalblue;
+}
+
+.skill2-bar-fill {
+  animation: skill2-fill 2s forwards;
+}
+
+@keyframes skill2-fill {
+  100% {
+    width: 80%;
+  }
+}
+
+.skill2-bar-fill-java {
+  animation: java-fill 2s forwards;
+}
+
+@keyframes java-fill {
+  100% {
+    width: 60%;
+  }
+}
+
+#skill2-bar-fill {
+  animation: video-fill 2s forwards;
+}
+
+@keyframes video-fill {
+  100% {
+    width: 80%;
+  }
+}
+.skill1-bar-fill {
+  animation: skill1-fill 2s forwards;
+}
+
+@keyframes skill1-fill {
+  100% {
+    width: 70%;
+  }
+}
+
+#skill1-bar-fill {
+  animation: javascript-fill 2s forwards;
+}
+
+@keyframes javascript-fill {
+  100% {
+    width: 50%;
+  }
+}
+
+.testi-heading {
+  border-bottom: 5px solid royalblue;
+  margin: 0 20%;
+  background: #0e0527;
+}
+.testi-heading h1 {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.Testimonials {
+  display: block;
+  background: #0e0527;
+}
+
+.Testimonials .Testimonial-info {
+  margin: 20px 10%;
+  border: 1px solid royalblue;
+  border-radius: 5px;
+}
+
+.Testimonial-info {
+  display: flex;
+  flex-direction: row;
+  background: rgb(27, 27, 44);
+}
+
+.img {
+  flex: 1;
+  height: 150px;
+  position: relative;
+  border-radius: 5px;
+  background-color: royalblue;
+  margin: 20px;
+  text-align: center;
+  color: aliceblue;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.img h3 {
+  padding-top: 10px;
+}
+.img img {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+.words {
+  flex: 5;
+  text-align: center;
+  color: aliceblue;
+  padding: 60px 30px 10px 30px;
+  font-family: monospace;
+  font-size: 1.1rem;
+}
+
+.footer-content {
+  margin-top: 50px;
+  background: rgb(13, 13, 48);
+  height: 400px;
+}
+
+.footer-content .above {
+  display: flex;
+  /* margin-bottom: 50px;*/
+
+  flex-direction: row;
+  height: 300px;
+  background: black;
+}
+
+.about-me {
+  flex: 1;
+
+  padding-top: 50px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.follow-me {
+  flex: 1;
+
+  padding-top: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.follow-me ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.follow-me ul li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.follow-me ul li a:hover {
+  color: royalblue;
+  transition: all 0.5s;
+}
+
+.info {
+  flex: 1;
+  padding-top: 50px;
+  padding-left: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.info ul li {
+  padding: 5px;
+  list-style: none;
+}
+
+.footer-content .bottom {
+  text-align: center;
+  font-family: monospace;
+  height: 100px;
+  padding-top: 50px;
+  color: white;
+  background: rgb(2, 1, 24);
+}
