@@ -176,7 +176,7 @@ header .container {
   height: 250px;
   margin-left: 8%;
   width: 40%;
-  min-width: 510px;
+  min-width: 300px;
   border: 1px solid royalblue;
   background: rgb(27, 27, 44);
 }
@@ -210,7 +210,7 @@ header .container {
 .skillset .skill2 {
   height: 250px;
   width: 40%;
-  min-width: 510px;
+
   float: right;
   margin-right: 8%;
   border: 1px solid royalblue;
@@ -427,4 +427,84 @@ header .container {
   padding-top: 50px;
   color: white;
   background: rgb(2, 1, 24);
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    padding-top: 10px;
+    display: block;
+    /*justify-content: space-around;*/
+    align-items: center;
+    height: 90px;
+    border-bottom: 3px solid royalblue;
+    overflow: hidden;
+    width: auto;
+  }
+
+  .container .logo {
+    padding-left: 130px;
+    text-align: center;
+  }
+  .container .nav {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: -30px;
+  }
+
+  .intro {
+    display: block;
+    width: auto;
+  }
+
+  .intro .Welcome-dev {
+    /* margin-top: 15px;*/
+
+    padding-top: 40px;
+    padding-left: 30px;
+    width: auto;
+  }
+
+  .intro .social {
+    padding-left: 60px;
+    padding-top: 90px;
+  }
+
+  .intro .btn {
+    width: auto;
+    text-align: center;
+  }
+
+  .skillset {
+    width: auto;
+    overflow: hidden;
+  }
+
+  .skillset .skill1,
+  .skillset .skill2 {
+    display: block;
+    float: none;
+    margin: 10px;
+    margin-left: 20px;
+    overflow: hidden;
+    width: auto;
+    border: 1px solid royalblue;
+    background: rgb(27, 27, 44);
+  }
+
+  .Testimonial-info {
+    flex-direction: column;
+  }
+  .img {
+    flex: 1;
+    height: auto;
+    padding: auto;
+    margin: auto;
+  }
+  .words {
+    flex: 1;
+    height: auto;
+    padding: auto;
+    margin: auto;
+  }
 }
